@@ -48,6 +48,10 @@ a:link, a:visited {
     padding: 0px;
 }
 
+.experience-info li {
+    margin-right: 5px;
+}
+
 .tag-list li {
     margin-right: 5px;
     margin-bottom: 5px;

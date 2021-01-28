@@ -39,14 +39,30 @@ ul {
     padding: 0;
 }
 
-a:link {
+a:link, a:visited {
    text-decoration: none;
-   color: black; 
+   color:#0C2340;
 }
 
-.experience-info li {
+/* .experience-info li {
     display: inline-block;
+} */
+
+.experience-info, .tag-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0px;
 }
 
+.tag-list li {
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    background-color:#BEBEBE;
+    color: var(--black);
+    font-weight: bold;
+}
 
 

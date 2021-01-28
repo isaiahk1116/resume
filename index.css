@@ -1,0 +1,52 @@
+@media only screen and (max-width: 900px) {
+    header {
+        text-align: center;
+    }
+
+    .main-content {
+        flex-wrap: wrap;
+    }
+
+    .links {
+        margin-right: 40px;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .links li {
+        display: inline-block;
+    }
+
+    .main-content {
+        display: flex;
+    }
+
+    aside {
+        margin-left: 10px;
+    }
+
+    #container {
+        padding: 50px 20%;
+    }
+}
+
+body {
+    color:#0C2340;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+a:link {
+   text-decoration: none;
+   color: black; 
+}
+
+.experience-info li {
+    display: inline-block;
+}
+
+
+

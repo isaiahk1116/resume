@@ -6,10 +6,6 @@
     .main-content {
         flex-wrap: wrap;
     }
-
-    .links {
-        margin-right: 40px;
-    }
 }
 
 @media only screen and (min-width: 900px) {
@@ -43,10 +39,6 @@ a:link, a:visited {
    text-decoration: none;
    color:#0C2340;
 }
-
-/* .experience-info li {
-    display: inline-block;
-} */
 
 .experience-info, .tag-list {
     list-style: none;

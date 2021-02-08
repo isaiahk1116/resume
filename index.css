@@ -58,6 +58,10 @@ a:link, a:visited {
     float: right;
 }
 
+#honors {
+    font-weight: normal;
+}
+
 i {
     font-weight: normal;
 }
